@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#04ECF0"
+    >
+
+    <Button
+        android:layout_width="135.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+
+        android:layout_gravity="center_horizontal"
+        android:text="Vector Demo"
+        android:background="@color/colorAccent"
+        android:textColor="#000C66"
+        android:layout_margin="10dp"
+        android:backgroundTint="#DB1F48"
+        />
+
+
+    <Button
+        android:layout_width="135.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:text="Drawable Demo"
+        android:textColor="#000C66"
+        android:layout_margin="10dp"
+        android:backgroundTint="#DB1F48"
+        android:background="@color/colorAccent"/>
+
+
+    <Button
+        android:layout_width="135.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:text="CANVAS DEMO"
+        android:textColor="#000C66"
+        android:layout_margin="10dp"
+        android:backgroundTint="#DB1F48"
+        android:background="@color/colorAccent"/>
+    
+    
+</LinearLayout>
